@@ -20,7 +20,7 @@ public class menu {
 				System.out.println(" \n");
 				System.out.println(" * (7) Depositar                / (8) Transferir valores entre contas   *");
 				System.out.println("\n");
-				System.out.println(" *                       ****(9) Sair ****                              *");
+				System.out.println(" *                       ****(9) Sair****                               *");
 				System.out.println(" \n");
 				System.out.println(" ********************** Digite a opção desejada  ************************");
 				System.out.println(" \n");
@@ -28,7 +28,7 @@ public class menu {
 				opcao = input.nextInt();
 
 				if (opcao == 9) {
-					System.out.println("Bem vinde ao Banco Generation!");
+					System.out.println("Banco Generation sempre à sua disposição!");
 					input.close();
 					System.exit(0);
 
